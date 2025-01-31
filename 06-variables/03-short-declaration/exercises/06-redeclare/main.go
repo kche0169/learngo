@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Redeclare
 //
@@ -30,6 +32,7 @@ func main() {
 	//
 
 	// THEN UNCOMMENT THE CODE BELOW
-
-	// fmt.Println(age, yourAge, ratio)
+	age, yourAge := 24, 20
+	age, ratio := 42, 3.14
+	fmt.Println(age, yourAge, ratio)
 }
